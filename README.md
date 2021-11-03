@@ -1,5 +1,20 @@
 # python-helloworld
+
 A sample project for python
+
+
+## Installation
+
+
+```shell
+$ pip install git+https://github.com/kumattau/python-helloworld.git
+```
+
+
+## Example
+
+See [example.py](example.py).
+
 
 ## LICENSE
 
