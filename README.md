@@ -1,2 +1,2 @@
-# super-duper-disco
+# python-helloworld
 A sample project for python
