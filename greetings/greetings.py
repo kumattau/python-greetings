@@ -5,13 +5,13 @@
 #
 
 """
-A hello package
+A greetings package
 """
 
 __version__ = "0.0.1"
 
-__all__ = ["say_hello"]
+__all__ = ["greet"]
 
 
-def say_hello(you: str = "world") -> str:
+def greet(you: str = "world") -> str:
     return "hello, " + you

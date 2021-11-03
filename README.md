@@ -1,13 +1,13 @@
-# python-hello
+# python-greetings
 
-A hello package for python
+A greetings package for python
 
 
 ## Installation
 
 
 ```shell
-$ pip install git+https://github.com/kumattau/python-hello.git
+$ pip install git+https://github.com/kumattau/python-greetings.git
 ```
 
 

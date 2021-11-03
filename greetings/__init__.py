@@ -4,8 +4,5 @@
 # Use of this source code is governed by a MIT License
 #
 
-import hello
-
-
-def test_hello():
-    assert hello.say_hello() == "hello, world"
+from .greetings import __doc__, __all__, __version__
+from .greetings import *
