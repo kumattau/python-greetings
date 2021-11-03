@@ -5,4 +5,4 @@ A sample project for python
 
 Copyright (c) 2021 kumattau
 
-This project is released under the [MIT Lisence](LISENCE).
+This project is released under the [MIT Lisence](LICENSE).
