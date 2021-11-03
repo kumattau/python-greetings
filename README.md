@@ -1,13 +1,13 @@
-# python-helloworld
+# python-hello
 
-A helloworld package for python
+A hello package for python
 
 
 ## Installation
 
 
 ```shell
-$ pip install git+https://github.com/kumattau/python-helloworld.git
+$ pip install git+https://github.com/kumattau/python-hello.git
 ```
 
 

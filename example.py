@@ -6,10 +6,10 @@
 #
 
 """
-helloworld example
+hello example
 """
 
-import helloworld
+import hello
 
 if __name__ == "__main__":
-    print(helloworld.say_helloworld())
+    print(hello.say_hello())

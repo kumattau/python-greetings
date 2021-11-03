@@ -1,5 +1,5 @@
 
-import helloworld
+import hello
 
-def test_helloworld():
-    assert helloworld.say_helloworld() == "hello, world"
+def test_hello():
+    assert hello.say_hello() == "hello, world"

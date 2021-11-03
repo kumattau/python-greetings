@@ -5,13 +5,13 @@
 #
 
 """
-A helloworld module
+A hello package
 """
 
 __version__ = "0.0.1"
 
-__all__ = ["say_helloworld"]
+__all__ = ["say_hello"]
 
 
-def say_helloworld() -> str:
-    return "hello, world"
+def say_hello(you: str = "world") -> str:
+    return "hello, " + you
