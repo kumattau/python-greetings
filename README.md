@@ -1,6 +1,6 @@
 # python-helloworld
 
-A sample project for python
+A helloworld package for python
 
 
 ## Installation
