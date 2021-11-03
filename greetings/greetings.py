@@ -5,9 +5,13 @@
 #
 
 """
-A greetings package
+A greetings for python
 """
 
+__author__ = "kumattau"
+__copyright__ = "Copyright (c) 2021 kumattau"
+__email__ = "kumattau@gmail.com"
+__license__ = "MIT"
 __version__ = "0.0.1"
 
 __all__ = ["greet"]

@@ -1,6 +1,6 @@
 # python-greetings
 
-A greetings package for python
+A greetings for python
 
 
 ## Installation

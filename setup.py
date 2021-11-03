@@ -1,13 +1,17 @@
 from setuptools import setup
 
-version_py = "greetings/greetings.py"
+def get_metadata(file, key):
+    with open(file, "r") as fp:
+        for line in fp:
+            if line.startswith(key):
+                return eval(line.split("=")[-1])
+    raise ValueError("can not find {} in {}".format(key, file))
 
-__version__ = None
-with open(version_py, "r") as file:
-    for line in file:
-        if line.startswith("__version__"):
-            exec(line)
-            break
-assert __version__ is not None
+metadata_file = "greetings/greetings.py"
 
-setup(version=__version__)
+setup(
+    author=get_metadata(metadata_file, "__author__"),
+    author_email=get_metadata(metadata_file, "__email__"),
+    version=get_metadata(metadata_file, "__version__"),
+    license=get_metadata(metadata_file, "__license__"),
+)
